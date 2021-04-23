@@ -25,6 +25,7 @@
 			<scope>test</scope>
 	</dependency>
 	</dependencies>
+	
 	<build>
 	<plugins>
 	<plugin>
@@ -32,6 +33,7 @@
 	<version>2.22.1</version>
 	</plugin>
 	</plugins>
+		<finalName>docker-jenkins-integration</finalName>
 	</build>
 	
 </project>

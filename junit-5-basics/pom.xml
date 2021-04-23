@@ -3,6 +3,7 @@
   <groupId>io.javabrains</groupId>
   <artifactId>junit-5-basics</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <name>junit-5-basics</name>
   
  	<properties>
@@ -31,6 +32,14 @@
 	<artifactId>maven-surefire-plugin</artifactId>
 	<version>2.22.1</version>
 	</plugin>
+	 <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+                <failOnMissingWebXml>false</failOnMissingWebXml>
+            </configuration>
+        </plugin>
 	</plugins>
 	</build>
 	
